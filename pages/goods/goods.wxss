@@ -4,7 +4,7 @@
   display: flex;
   position: absolute;
   width: 100%;
-  top: 174px;
+  top: 0;
   bottom: 46px;
   overflow: hidden;
   font-family:"微软雅黑";

@@ -1,12 +1,10 @@
 // pages/goods/goods.js
 Page({
     data: {
-        goods: [
-            {
+        goods: [{
                 "name": "热销榜",
                 "type": -1,
-                "foods": [
-                    {
+                "foods": [{
                         "name": "皮蛋瘦肉粥",
                         "price": 10,
                         "oldPrice": "",
@@ -15,8 +13,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓软滑，饱腹暖心，皮蛋的Q弹与瘦肉的滑嫩伴着粥香溢于满口，让人喝这样的一碗粥也觉得心满意足",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -49,8 +46,7 @@ Page({
                         "sellCount": 188,
                         "Count": 0,
                         "rating": 96,
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -85,8 +81,7 @@ Page({
                         "Count": 0,
                         "rating": 85,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 1,
@@ -120,8 +115,7 @@ Page({
                         "Count": 0,
                         "rating": 91,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 1,
@@ -155,8 +149,7 @@ Page({
                         "Count": 0,
                         "rating": 78,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 1,
@@ -189,8 +182,7 @@ Page({
                         "sellCount": 91,
                         "Count": 0,
                         "rating": 100,
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -224,8 +216,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -259,8 +250,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -294,8 +284,7 @@ Page({
                         "Count": 0,
                         "rating": 91,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -329,8 +318,7 @@ Page({
                         "Count": 0,
                         "rating": 93,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -360,69 +348,61 @@ Page({
             {
                 "name": "单人精彩套餐",
                 "type": 2,
-                "foods": [
-                    {
-                        "name": "红枣山药粥套餐",
-                        "price": 29,
-                        "oldPrice": 36,
-                        "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
-                        "sellCount": 17,
-                        "Count": 0,
-                        "rating": 100,
-                        "info": "",
-                        "ratings": [
-                            {
-                                "username": "2******3",
-                                "rateTime": 1469271264000,
-                                "rateType": 0,
-                                "text": "",
-                                "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
-                            }
-                        ],
-                        "icon": "http://fuss10.elemecdn.com/6/72/cb844f0bb60c502c6d5c05e0bddf5jpeg.jpeg?imageView2/1/w/114/h/114",
-                        "image": "http://fuss10.elemecdn.com/6/72/cb844f0bb60c502c6d5c05e0bddf5jpeg.jpeg?imageView2/1/w/750/h/750"
-                    }
-                ]
+                "foods": [{
+                    "name": "红枣山药粥套餐",
+                    "price": 29,
+                    "oldPrice": 36,
+                    "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+                    "sellCount": 17,
+                    "Count": 0,
+                    "rating": 100,
+                    "info": "",
+                    "ratings": [{
+                        "username": "2******3",
+                        "rateTime": 1469271264000,
+                        "rateType": 0,
+                        "text": "",
+                        "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+                    }],
+                    "icon": "http://fuss10.elemecdn.com/6/72/cb844f0bb60c502c6d5c05e0bddf5jpeg.jpeg?imageView2/1/w/114/h/114",
+                    "image": "http://fuss10.elemecdn.com/6/72/cb844f0bb60c502c6d5c05e0bddf5jpeg.jpeg?imageView2/1/w/750/h/750"
+                }]
             },
             {
                 "name": "冰爽饮品限时特惠",
                 "type": 1,
-                "foods": [
-                    {
-                        "name": "VC无限橙果汁",
-                        "price": 8,
-                        "oldPrice": 10,
-                        "description": "",
-                        "sellCount": 15,
-                        "Count": 0,
-                        "rating": 100,
-                        "info": "",
-                        "ratings": [
-                            {
-                                "username": "3******c",
-                                "rateTime": 1469281964000,
-                                "rateType": 0,
-                                "text": "还可以",
-                                "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
-                            },
-                            {
-                                "username": "2******3",
-                                "rateTime": 1469271264000,
-                                "rateType": 0,
-                                "text": "",
-                                "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
-                            }
-                        ],
-                        "icon": "http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/114/h/114",
-                        "image": "http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/750/h/750"
-                    }
-                ]
+                "foods": [{
+                    "name": "VC无限橙果汁",
+                    "price": 8,
+                    "oldPrice": 10,
+                    "description": "",
+                    "sellCount": 15,
+                    "Count": 0,
+                    "rating": 100,
+                    "info": "",
+                    "ratings": [{
+                            "username": "3******c",
+                            "rateTime": 1469281964000,
+                            "rateType": 0,
+                            "text": "还可以",
+                            "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+                        },
+                        {
+                            "username": "2******3",
+                            "rateTime": 1469271264000,
+                            "rateType": 0,
+                            "text": "",
+                            "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+                        }
+                    ],
+                    "icon": "http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/114/h/114",
+                    "image": "http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/750/h/750"
+                }]
             },
             {
                 "name": "精选热菜",
                 "type": -1,
-                "foods": [
-                    {
+                "foods": [{
                         "name": "娃娃菜炖豆腐",
                         "price": 17,
                         "oldPrice": "",
@@ -431,8 +411,7 @@ Page({
                         "Count": 0,
                         "rating": 92,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -459,8 +438,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -487,8 +465,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -511,8 +488,7 @@ Page({
             {
                 "name": "爽口凉菜",
                 "type": -1,
-                "foods": [
-                    {
+                "foods": [{
                         "name": "八宝酱菜",
                         "price": 4,
                         "oldPrice": "",
@@ -521,8 +497,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -556,8 +531,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -587,8 +561,7 @@ Page({
             {
                 "name": "精选套餐",
                 "type": -1,
-                "foods": [
-                    {
+                "foods": [{
                         "name": "红豆薏米粥套餐",
                         "price": 37,
                         "oldPrice": "",
@@ -597,15 +570,13 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
-                                "username": "2******3",
-                                "rateTime": 1469271264000,
-                                "rateType": 0,
-                                "text": "",
-                                "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
-                            }
-                        ],
+                        "ratings": [{
+                            "username": "2******3",
+                            "rateTime": 1469271264000,
+                            "rateType": 0,
+                            "text": "",
+                            "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+                        }],
                         "icon": "http://fuss10.elemecdn.com/f/49/27f26ed00c025b2200a9ccbb7e67ejpeg.jpeg?imageView2/1/w/114/h/114",
                         "image": "http://fuss10.elemecdn.com/f/49/27f26ed00c025b2200a9ccbb7e67ejpeg.jpeg?imageView2/1/w/750/h/750"
                     },
@@ -618,15 +589,13 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
-                                "username": "2******3",
-                                "rateTime": 1469271264000,
-                                "rateType": 0,
-                                "text": "",
-                                "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
-                            }
-                        ],
+                        "ratings": [{
+                            "username": "2******3",
+                            "rateTime": 1469271264000,
+                            "rateType": 0,
+                            "text": "",
+                            "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+                        }],
                         "icon": "http://fuss10.elemecdn.com/8/96/f444a8087f0e940ef264617f9d98ajpeg.jpeg?imageView2/1/w/114/h/114",
                         "image": "http://fuss10.elemecdn.com/8/96/f444a8087f0e940ef264617f9d98ajpeg.jpeg?imageView2/1/w/750/h/750"
                     }
@@ -635,8 +604,7 @@ Page({
             {
                 "name": "果拼果汁",
                 "type": -1,
-                "foods": [
-                    {
+                "foods": [{
                         "name": "蜜瓜圣女萝莉杯",
                         "price": 6,
                         "oldPrice": "",
@@ -658,8 +626,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -693,8 +660,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -717,8 +683,7 @@ Page({
             {
                 "name": "小吃主食",
                 "type": -1,
-                "foods": [
-                    {
+                "foods": [{
                         "name": "扁豆焖面",
                         "price": 14,
                         "oldPrice": "",
@@ -727,8 +692,7 @@ Page({
                         "Count": 0,
                         "rating": 96,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -762,8 +726,7 @@ Page({
                         "Count": 0,
                         "rating": 85,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 1,
@@ -797,8 +760,7 @@ Page({
                         "Count": 0,
                         "rating": 91,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 1,
@@ -832,8 +794,7 @@ Page({
                         "Count": 0,
                         "rating": 78,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 1,
@@ -867,8 +828,7 @@ Page({
                         "Count": 0,
                         "rating": 93,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -898,8 +858,7 @@ Page({
             {
                 "name": "特色粥品",
                 "type": -1,
-                "foods": [
-                    {
+                "foods": [{
                         "name": "皮蛋瘦肉粥",
                         "price": 10,
                         "oldPrice": "",
@@ -907,8 +866,7 @@ Page({
                         "sellCount": 229,
                         "Count": 0,
                         "rating": 100,
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -942,8 +900,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -977,8 +934,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -1012,8 +968,7 @@ Page({
                         "Count": 0,
                         "rating": 91,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -1047,8 +1002,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -1081,8 +1035,7 @@ Page({
                         "Count": 0,
                         "rating": 100,
                         "info": "",
-                        "ratings": [
-                            {
+                        "ratings": [{
                                 "username": "3******c",
                                 "rateTime": 1469281964000,
                                 "rateType": 0,
@@ -1113,14 +1066,17 @@ Page({
         toView: '0',
         scrollTop: 100,
         foodCounts: 0,
-        totalPrice: 0,// 总价格
+        totalPrice: 0, // 总价格
         totalCount: 0, // 总商品数
         carArray: [],
-        minPrice: 20,//起送價格
+        minPrice: 20, //起送價格
         payDesc: '',
-        deliveryPrice: 4,//配送費
+        deliveryPrice: 4, //配送費
         fold: true,
-        selectFoods: [{ price: 20, count: 2 }],
+        selectFoods: [{
+            price: 20,
+            count: 2
+        }],
         cartShow: 'none'
     },
     // selectFoods: function (event) {
@@ -1156,7 +1112,14 @@ Page({
                 if (food.Count > 0) {
                     this.data.goods[parentIndex].foods[index].Count--
                     var price = this.data.goods[parentIndex].foods[index].price;
-                    var obj = { price: price, num: num, mark: mark, name: name, index: index, parentIndex: parentIndex };
+                    var obj = {
+                        price: price,
+                        num: num,
+                        mark: mark,
+                        name: name,
+                        index: index,
+                        parentIndex: parentIndex
+                    };
                     var carArray1 = this.data.carArray.filter(item => item.mark != mark);
                     carArray1.push(obj);
                     console.log(carArray1);
@@ -1191,7 +1154,14 @@ Page({
         var price = this.data.goods[parentIndex].foods[index].price;
         var num = this.data.goods[parentIndex].foods[index].Count;
         var name = this.data.goods[parentIndex].foods[index].name;
-        var obj = { price: price, num: num, mark: mark, name: name, index: index, parentIndex: parentIndex };
+        var obj = {
+            price: price,
+            num: num,
+            mark: mark,
+            name: name,
+            index: index,
+            parentIndex: parentIndex
+        };
         var carArray1 = this.data.carArray.filter(item => item.mark != mark)
         carArray1.push(obj)
         console.log(carArray1);
